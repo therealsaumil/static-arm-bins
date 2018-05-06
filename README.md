@@ -10,6 +10,7 @@ Statically compiled ARM binaries for debugging and runtime analysis.
 -	nc-arm-static
 -	netstat-armel-static
 -	ifconfig-armel-static
+-	datapipe-armel-static
 
 Hope this saves you from toolchain hell!
 
@@ -25,4 +26,6 @@ ce874cc891253d36327f6118984ae315c300cec9b95e6d0545edf39ab8a2afa4 ltrace-arm-stat
 3b252ac77c79724fec975cc64721f1050afd211fa73e849b39232f703d124720 nc-arm-static
 c790967c4d06d7b86188f36c15d10281c67e2f4c6c5a28cab192e314435e58a6 netstat-armel-static
 7bd7a5a2a1e9eb9edfaadcc0d130e9145dbcdf7b9cc9b42e55ba2c9f7e853edf ifconfig-armel-static
+cde715eea6ec2028015508cd9de083fb98247a55aef176fd035ac287a8c1e907 datapipe-armel-static
+4a90f60aedfeb037e0eb51900bbf6e41099a0144af4fb114b7cc025c054a3977 datapipe_arm.c
 ```

@@ -1,7 +1,7 @@
 static-arm-bins
 ===============
 
-A collection of tatically compiled ARM binaries for debugging and runtime analysis.
+A collection of statically compiled ARM binaries for debugging and runtime analysis.
 
 -	gdb-arm-static-7.11
 -	gdbserver-armel-static-8.0.1
@@ -20,8 +20,9 @@ A collection of tatically compiled ARM binaries for debugging and runtime analys
 -	xxd-armel-static
 -	lsof-armel-static
 -	telnetd-static (https://github.com/Troll338cz/mini_telnetd)
+-	lspci-static
 
-Hope this saves you from toolchain hell!
+Note: This collection of static binaries is provided as-is. Some of them are compiled by me, using the usual CFLAGS/LDFLAGS=-static incantations in the Makefiles; some contributed by friends, and some collected from the world wide web.
 
 @therealsaumil
 
@@ -46,4 +47,5 @@ b4ce411a404dda84effa7fe4bcc5f045330711fe5436e059ab2370781eb3fb49  nohup-armel-st
 04b956d9c5c5682623359b5f16accbafe90d513eefc7b54a9962a98f770f2f9e  xxd-armel-static
 bca854d2209e2cdd5cb83fdb88d3e66543efdf5890c02eb15f555c5d6290b360  lsof-armel-static
 3fc7b82244e1da23f6ada3f270ec7ae76d59f3ec4f5c05e0560206e575283cd1  telnetd-static
+995d2acd901b92c0e039f0e168e951e9408c817ffb71fd853c55c811cacbb87d  lspci-static
 ```
